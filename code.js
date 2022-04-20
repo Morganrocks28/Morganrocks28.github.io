@@ -241,11 +241,7 @@ function playStation() {
     }, 7500);
 }
 
-function playSpaceShip() {
-    console.log("playSpaceShip() started");
-    bowieSound = new sound("spaceship-cruising-ufo-7176");
-    bowieSound.play();
-}
+
 
 function sound (srcFile) {
     this.sound = document.createElement("audio");
